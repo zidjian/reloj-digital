@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+html { 
+    background-image: url(../images/neon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: 3rem auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    border-bottom: solid 1px rgb(230, 87, 87);
+    color: #424242;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.body {
+    color: #545454;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bt_body {
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.bt_detalle {
+    font-weight: 300;
+}
+
+.b_time {
+    margin: 1rem 0;
+}
+
+.footer {
+    background-color: rgb(230, 87, 87);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer span {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+}
